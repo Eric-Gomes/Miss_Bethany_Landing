@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { IntroComponent } from './Components/intro/intro.component';
 import { NavComponent } from './Components/nav/nav.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavComponent } from './Components/nav/nav.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
